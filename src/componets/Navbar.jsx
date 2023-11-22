@@ -3,7 +3,12 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const handleClick = () => setNav[!nav];
+  const handleClick = () => {
+
+    console.log("button clicked", nav);
+
+    setNav(!nav);
+  };
 
 
   return (
