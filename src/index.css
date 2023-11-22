@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 @layer base {
   body {
@@ -10,6 +11,5 @@
   }
   li {
     @apply px-4 cursor-pointer;
-
   }
-}
+} 
